@@ -1,6 +1,6 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!--<img alt="Vue logo" src="./assets/logo.png">-->
+  <HelloWorld msg="SUBTRACT ZERO:"/>
 </template>
 
 <script>
@@ -15,12 +15,20 @@ export default {
 </script>
 
 <style>
+body {
+  background-color: #003;
+  color: #9cf;
+  margin: 0;
+  padding: 0;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Electrolize', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:#000;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  padding: 0;
+  margin: 0;
+  border: 5px dotted salmon;
 }
 </style>

@@ -1,7 +1,9 @@
 <template>
   <div class="hello">
+    <p>To debunk zero - origin + origin ± stories:</p>
     <h1>{{ msg }}</h1>
-    <p>
+    <p>-1 ≠ 1 ± 1 = 2&Sqrt;2 = :: = 2<sup>2</sup> &lt; 4&Sqrt;3 = "8 points"...</p>
+    <!--<p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
@@ -26,7 +28,7 @@
       <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+    </ul>-->
   </div>
 </template>
 
@@ -41,8 +43,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+h1 {
+  font-size: 36px;
+  color: gold;
+}
 h3 {
-  margin: 40px 0 0;
+  margin: 5px 0 0;
 }
 ul {
   list-style-type: none;
